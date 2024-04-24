@@ -34,7 +34,7 @@ a maintainer please [contact us](https://intersect-training.org/contact/).
 
 ## Citation
 
-To cite this lesson, please consult with [CITATION](CITATION).
+To cite this lesson, please consult with [CITATION](CITATION.cff).
 
 ## Funding
 
