@@ -1,14 +1,19 @@
 ---
 title: "Labelling Issues"
 teaching: 5
-exercises: 5
-questions:
-- "How do you make and assign labels to issues?"
-objectives:
-- "Learn how to use labels for GitHub issues."
-keypoints:
-- "Labelling issues can help with organization and filtering."
 ---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- "Learn how to use labels for GitHub issues."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- "How do you make and assign labels to issues?"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## GitHub Labels
 
@@ -31,9 +36,9 @@ From [GitHub's official documentation](https://docs.github.com/en/issues/using-l
 
 These labels can be viewed from the Issues and Pull Requests pages.
 
-![The issue page with the labels option highlighted]({{ page.root }}/fig/issues-labels.png){:width="75%"}
+![](fig/issues-labels.png){alt='The issue page with the labels option highlighted'}
 
-![The default set of labels]({{ page.root }}/fig/default-labels.png){:width="75%"}
+![](fig/default-labels.png){alt='The default set of labels'}
 
 As you can see, several of these are aimed towards large, open-source communities
 with many collaborators. This is not always the case in Research Software
@@ -43,7 +48,7 @@ Engineering, however, so we will need to modify these.
 
 Labels can be added, edited, or deleted from the labels page.
 
-![Label actions highlighted]({{ page.root }}/fig/label-highlights.png){:width="75%"}
+![](fig/label-highlights.png){alt='Label actions highlighted'}
 
 Each label has three attributes:
 
@@ -51,17 +56,19 @@ Each label has three attributes:
 * Description
 * Color (Hex code)
 
-![Label attributes - name, description, color]({{ page.root }}/fig/label-attributes.png){:width="75%"}
+![](fig/label-attributes.png){alt='Label attributes - name, description, color'}
 
-> ## Label Maker
->
-> Navigate to your practice repository's label page.
-> 
-> * Add a new label for `discussion`
-> * Remove the label for `good first issue`
-> * Modify the color on the `wontfix` label to your favorite color
->
-{:.challenge}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Label Maker
+
+Navigate to your practice repository's label page.
+ 
+* Add a new label for `discussion`
+* Remove the label for `good first issue`
+* Modify the color on the `wontfix` label to your favorite color
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Using Labels
 
@@ -73,26 +80,28 @@ From the main Issues page, simply checkmark the issue, hit the "Label"
 dropdown, select your preferred label(s), and click outside of the
 dropdown.
 
-![Apply Labels from the main Issues page]({{ page.root }}/fig/apply-labels-issue-page.png){:width="75%"}
+![](fig/apply-labels-issue-page.png){alt='Apply Labels from the main Issues page'}
 
 To apply within a single issue, click on the issue to open it. Then you
 will see the "Labels" option on the right-hand side.
 
-![Highlighted Labels option within a single issue]({{ page.root }}/fig/label-option-in-issue.png){:width="75%"}
+![](fig/label-option-in-issue.png){alt='Highlighted Labels option within a single issue'}
 
 Click on "Labels". A dropdown will appear in which you can select or deselect
 your preferred label(s).
 
-![Label dropdown within a single issue]({{ page.root }}/fig/label-dropdown-in-issue.png){:width="40%"}
+![](fig/label-dropdown-in-issue.png){alt='Label dropdown within a single issue'}
 
-> ## Stick the Label
->
-> Navigate to your practice repository's issue page.
-> 
-> * Create a new issue entitled "[YOUR NAME]'s label issue"
-> * Add the `discussion` label
->
-{:.challenge}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Stick the Label
+
+Navigate to your practice repository's issue page.
+ 
+* Create a new issue entitled "[YOUR NAME]'s label issue"
+* Add the `discussion` label
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Filter by Labels
 
@@ -104,7 +113,7 @@ To filter, navigate to the main Issues page. With no issue selected, click the
 "Labels" dropdown again. You'll see that this dropdown now says "Filter by
 label" rather than "Apply labels."
 
-![Filter by label dropdown on main Issue page]({{ page.root }}/fig/filter-by-label.png){:width="40%"}
+![](fig/filter-by-label.png){alt='Filter by label dropdown on main Issue page'}
 
 Click on a label in the list to filter by it. GitHub will only show issues
 that have that label applied.
@@ -112,18 +121,25 @@ that have that label applied.
 You can select multiple labels or use the hints at the bottom of the
 "Labels" dropdown to do more advanced filtering, such as exclusion.
 
-> ## Practice Filtering
->
-> Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the issues page.
-> 
-> * Filter by the `architecture` label
-> * Filter by both the `architecture` and `architectures` labels
-> * (CHALLENGE) Filter by `question` but exclude `bug`
->
-{:.challenge}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Practice Filtering
+
+Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and
+find the issues page.
+ 
+* Filter by the `architecture` label
+* Filter by both the `architecture` and `architectures` labels
+* (CHALLENGE) Filter by `question` but exclude `bug`
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 You now understand how to make, change, apply, and filter by labels in
 GitHub Issues.
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- "Labelling issues can help with organization and filtering."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
