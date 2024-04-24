@@ -28,7 +28,7 @@ done.
 Issues are used to collaborate, solve problems, and plan work, which is 
 enabled by software tools such as GitLab issues, Jira story boards, and GitHub issues.
 
-![Collaborative tracking in the public eye](fig/issue_tracking_intro.png)
+![](fig/issue_tracking_intro.png){alt='Collaborative tracking in the public eye'}
 
 Issue trackers can be internal (team-facing) or external (user-facing). In
 this lesson, students will learn about issue tracking through the use of GitHub
@@ -51,23 +51,23 @@ integrated and stand-alone.
 GitHub integrates issue tracking into their version control system. Every project
 on GitHub can enable an integrated issue tracker.
 
-![INTERSECT training repository navigation bar](fig/intersect-nav.png)
+![](fig/intersect-nav.png){alt='INTERSECT training repository navigation bar'}
 
 To access a repository's issues, simply navigate to the repository root
 page and click on "Issues" in the navigation bar. This will take you to the
 page of all "Open" issues.
 
-![INTERSECT training repository issues pages](fig/intersect-issues.png)
+![](fig/intersect-issues.png){alt='INTERSECT training repository issues pages'}
 
 Click on an issue to open it and read its details, plus any discussion
 on that issue.
 
-![INTERSECT training repository issue 13 details](fig/intersect-issue-13.png)
+![](fig/intersect-issue-13.png){alt='INTERSECT training repository issue 13 details'}
 
 You can also change the default filter on the Issues page by status ("Open" or
 "Closed"), author, and more.
 
-![Issue top-bar filter options](fig/intersect-filter.png)
+![](fig/intersect-filter.png){alt='Issue top-bar filter options'}
 
 
 :::::::::::::::::::::::::::::::::::::::  challenge
