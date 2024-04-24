@@ -2,16 +2,21 @@
 title: "Introduction"
 teaching: 5
 exercises: 5
-questions:
+---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
 - "What is issue tracking?"
 - "Why is issue tracking useful?"
-objectives:
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
 - "Understand the purpose and benefits of issue trackers"
 - "Become familiar with GitHub Issues"
-keypoints:
-- "Issue tracking is the process of monitoring problems and requests for a software product."
-- "Issue tracking enables a software development team to capture, organize, and manage work collaboratively."
----
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## What is Issue Tracking?
 
@@ -64,15 +69,24 @@ You can also change the default filter on the Issues page by status ("Open" or
 
 ![Issue top-bar filter options]({{ page.root }}/fig/intersect-filter.png){:width="75%"}
 
-> ## Browsing Open Issues
->
-> Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the issues page.
-> 
-> * How many issues are currently open?
-> * How many have been closed?
-> * How many labels are there?
->
-{:.challenge}
 
-{% include links.md %}
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Browsing Open Issues
+
+Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the issues page.
+ 
+* How many issues are currently open?
+* How many have been closed?
+* How many labels are there?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- "Issue tracking is the process of monitoring problems and requests for a software product."
+- "Issue tracking enables a software development team to capture, organize, and manage work collaboratively."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
