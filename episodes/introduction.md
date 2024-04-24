@@ -1,114 +1,78 @@
 ---
-title: "Using Markdown"
-teaching: 10
-exercises: 2
+title: "Introduction"
+teaching: 5
+exercises: 5
+questions:
+- "What is issue tracking?"
+- "Why is issue tracking useful?"
+objectives:
+- "Understand the purpose and benefits of issue trackers"
+- "Become familiar with GitHub Issues"
+keypoints:
+- "Issue tracking is the process of monitoring problems and requests for a software product."
+- "Issue tracking enables a software development team to capture, organize, and manage work collaboratively."
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+## What is Issue Tracking?
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+Issue tracking is an activity that happens as part of Project Management. In
+this activity, a record is made of bugs, enhancements, and requests in such
+a way that the team is able to view and access the list of work to be
+done.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+Issues are used to collaborate, solve problems, and plan work, which is 
+enabled by software tools such as GitLab issues, Jira story boards, and GitHub issues.
 
-::::::::::::::::::::::::::::::::::::: objectives
+![Collaborative tracking in the public eye]({{ page.root }}/fig/issue_tracking_intro.png)
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+Issue trackers can be internal (team-facing) or external (user-facing). In
+this lesson, students will learn about issue tracking through the use of GitHub
+Issues.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+## The Benefits of Issue Tracking
 
-## Introduction
+Issue tracking has numerous benefits. Some of the main ones are:
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
+- _Visibility_: Work to be done is captured in one location where all team members can access it
+- _Collaboration_: Issue trackers enable good project collaboration. Work can be captured, organized, managed, and discussed in a single location
+- _Transparency_: If the issue tracking system is user-facing, users can see the status of work completed and add more information
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## GitHub Issues
 
-:::::::::::::::::::::::: solution 
+Numerous different issue tracking systems exist - both commercial and open-source,
+integrated and stand-alone.
 
-You can add a line with at least three colons and a `solution` tag.
+GitHub integrates issue tracking into their version control system. Every project
+on GitHub can enable an integrated issue tracker.
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+![INTERSECT training repository navigation bar]({{ page.root }}/fig/intersect-nav.png){:width="75%"}
 
-## Figures
+To access a repository's issues, simply navigate to the repository root
+page and click on "Issues" in the navigation bar. This will take you to the
+page of all "Open" issues.
 
-You can use standard markdown for static figures with the following syntax:
+![INTERSECT training repository issues pages]({{ page.root }}/fig/intersect-issues.png){:width="75%"}
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+Click on an issue to open it and read its details, plus any discussion
+on that issue.
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+![INTERSECT training repository issue 13 details]({{ page.root }}/fig/intersect-issue-13.png){:width="75%"}
 
-::::::::::::::::::::::::::::::::::::: callout
+You can also change the default filter on the Issues page by status ("Open" or
+"Closed"), author, and more.
 
-Callout sections can highlight information.
+![Issue top-bar filter options]({{ page.root }}/fig/intersect-filter.png){:width="75%"}
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+> ## Browsing Open Issues
+>
+> Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the issues page.
+> 
+> * How many issues are currently open?
+> * How many have been closed?
+> * How many labels are there?
+>
+{:.challenge}
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+{% include links.md %}
 
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/

@@ -2,53 +2,20 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+> ## Prerequisites
+>
+> * Basic understanding of git
+> * git (installed locally)
+> * GitHub account
+> * Copy of [INTERSECT Day 2 Template](https://github.com/INTERSECT-training/intersect-training-day2)
+{: .prereq}
 
-## Data Sets
+[CodeRefinery](https://coderefinery.org/) has useful information about how
+to get started with git, from installation to usage.
 
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
-
-## Software Setup
-
-::::::::::::::::::::::::::::::::::::::: discussion
-
-### Details
-
-Setup for different systems can be presented in dropdown menus via a `spoiler`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
-
-### Windows
-
-Use PuTTY
-
-::::::::::::::::::::::::
-
-:::::::::::::::: spoiler
-
-### MacOS
-
-Use Terminal.app
-
-::::::::::::::::::::::::
+- [Installing git](https://coderefinery.github.io/installation/)
+- [Introduction to git](https://coderefinery.github.io/git-intro/)
+- [Setting up a GitHub Account](https://coderefinery.github.io/installation/github/)
 
 
-:::::::::::::::: spoiler
-
-### Linux
-
-Use Terminal
-
-::::::::::::::::::::::::
-
+{% include links.md %}
