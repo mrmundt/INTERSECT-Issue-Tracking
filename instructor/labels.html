@@ -264,7 +264,7 @@
         
         
         
-        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
+        
         
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -272,6 +272,27 @@
 
         
 
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul><li>“How do you make and assign labels to issues?”</li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul><li>“Learn how to use labels for GitHub issues.”</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
 <section id="github-labels"><h2 class="section-heading">GitHub Labels<a class="anchor" aria-label="anchor" href="#github-labels"></a>
 </h2>
 <hr class="half-width"><p>Each new GitHub repository comes with a set of default labels that
@@ -304,23 +325,25 @@ information</td>
 discussion</td>
 </tr></tbody></table><p>These labels can be viewed from the Issues and Pull Requests
 pages.</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/issues-labels.png" alt="The issue page with the labels option highlighted" class="figure">{:width=“75%”}</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/default-labels.png" alt="The default set of labels" class="figure">{:width=“75%”}</p>
-<p>As you can see, several of these are aimed towards large, open-source
+<figure><img src="../fig/issues-labels.png" alt="The issue page with the labels option highlighted" class="figure mx-auto d-block"></figure><figure><img src="../fig/default-labels.png" alt="The default set of labels" class="figure mx-auto d-block"></figure><p>As you can see, several of these are aimed towards large, open-source
 communities with many collaborators. This is not always the case in
 Research Software Engineering, however, so we will need to modify
 these.</p>
 </section><section id="modifying-labels"><h2 class="section-heading">Modifying Labels<a class="anchor" aria-label="anchor" href="#modifying-labels"></a>
 </h2>
 <hr class="half-width"><p>Labels can be added, edited, or deleted from the labels page.</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/label-highlights.png" alt="Label actions highlighted" class="figure">{:width=“75%”}</p>
-<p>Each label has three attributes:</p>
+<figure><img src="../fig/label-highlights.png" alt="Label actions highlighted" class="figure mx-auto d-block"></figure><p>Each label has three attributes:</p>
 <ul><li>Label name</li>
 <li>Description</li>
 <li>Color (Hex code)</li>
-</ul><p><img src="../%7B%7B%20page.root%20%7D%7D/fig/label-attributes.png" alt="Label attributes - name, description, color" class="figure">{:width=“75%”}</p>
-<blockquote>
-<h2 id="label-maker">Label Maker</h2>
+</ul><figure><img src="../fig/label-attributes.png" alt="Label attributes - name, description, color" class="figure mx-auto d-block"></figure><div id="label-maker" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="label-maker" class="callout-inner">
+<h3 class="callout-title">Label Maker<a class="anchor" aria-label="anchor" href="#label-maker"></a>
+</h3>
+<div class="callout-content">
 <p>Navigate to your practice repository’s label page.</p>
 <ul><li>Add a new label for <code>discussion</code>
 </li>
@@ -328,8 +351,9 @@ these.</p>
 </li>
 <li>Modify the color on the <code>wontfix</code> label to your favorite
 color</li>
-</ul><p>{:.challenge}</p>
-</blockquote>
+</ul></div>
+</div>
+</div>
 </section><section id="using-labels"><h2 class="section-heading">Using Labels<a class="anchor" aria-label="anchor" href="#using-labels"></a>
 </h2>
 <hr class="half-width"><p>Now that the labels are created, they can be assigned to issues.</p>
@@ -338,20 +362,24 @@ issue.</p>
 <p>From the main Issues page, simply checkmark the issue, hit the
 “Label” dropdown, select your preferred label(s), and click outside of
 the dropdown.</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/apply-labels-issue-page.png" alt="Apply Labels from the main Issues page" class="figure">{:width=“75%”}</p>
-<p>To apply within a single issue, click on the issue to open it. Then
+<figure><img src="../fig/apply-labels-issue-page.png" alt="Apply Labels from the main Issues page" class="figure mx-auto d-block"></figure><p>To apply within a single issue, click on the issue to open it. Then
 you will see the “Labels” option on the right-hand side.</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/label-option-in-issue.png" alt="Highlighted Labels option within a single issue" class="figure">{:width=“75%”}</p>
-<p>Click on “Labels”. A dropdown will appear in which you can select or
+<figure><img src="../fig/label-option-in-issue.png" alt="Highlighted Labels option within a single issue" class="figure mx-auto d-block"></figure><p>Click on “Labels”. A dropdown will appear in which you can select or
 deselect your preferred label(s).</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/label-dropdown-in-issue.png" alt="Label dropdown within a single issue" class="figure">{:width=“40%”}</p>
-<blockquote>
-<h2 id="stick-the-label">Stick the Label</h2>
+<figure><img src="../fig/label-dropdown-in-issue.png" alt="Label dropdown within a single issue" class="figure mx-auto d-block"></figure><div id="stick-the-label" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="stick-the-label" class="callout-inner">
+<h3 class="callout-title">Stick the Label<a class="anchor" aria-label="anchor" href="#stick-the-label"></a>
+</h3>
+<div class="callout-content">
 <p>Navigate to your practice repository’s issue page.</p>
 <ul><li>Create a new issue entitled “[YOUR NAME]’s label issue”</li>
 <li>Add the <code>discussion</code> label</li>
-</ul><p>{:.challenge}</p>
-</blockquote>
+</ul></div>
+</div>
+</div>
 </section><section id="filter-by-labels"><h2 class="section-heading">Filter by Labels<a class="anchor" aria-label="anchor" href="#filter-by-labels"></a>
 </h2>
 <hr class="half-width"><p>Another feature of labels within GitHub is the ability to filter
@@ -361,13 +389,18 @@ work.</p>
 <p>To filter, navigate to the main Issues page. With no issue selected,
 click the “Labels” dropdown again. You’ll see that this dropdown now
 says “Filter by label” rather than “Apply labels.”</p>
-<p><img src="../%7B%7B%20page.root%20%7D%7D/fig/filter-by-label.png" alt="Filter by label dropdown on main Issue page" class="figure">{:width=“40%”}</p>
-<p>Click on a label in the list to filter by it. GitHub will only show
+<figure><img src="../fig/filter-by-label.png" alt="Filter by label dropdown on main Issue page" class="figure mx-auto d-block"></figure><p>Click on a label in the list to filter by it. GitHub will only show
 issues that have that label applied.</p>
 <p>You can select multiple labels or use the hints at the bottom of the
 “Labels” dropdown to do more advanced filtering, such as exclusion.</p>
-<blockquote>
-<h2 id="practice-filtering">Practice Filtering</h2>
+<div id="practice-filtering" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice-filtering" class="callout-inner">
+<h3 class="callout-title">Practice Filtering<a class="anchor" aria-label="anchor" href="#practice-filtering"></a>
+</h3>
+<div class="callout-content">
 <p>Navigate to <a href="https://github.com/spack/spack" class="external-link">https://github.com/spack/spack</a>
 and find the issues page.</p>
 <ul><li>Filter by the <code>architecture</code> label</li>
@@ -376,11 +409,23 @@ and find the issues page.</p>
 <li>(CHALLENGE) Filter by <code>question</code> but exclude
 <code>bug</code>
 </li>
-</ul><p>{:.challenge}</p>
-</blockquote>
+</ul></div>
+</div>
+</div>
 <p>You now understand how to make, change, apply, and filter by labels
 in GitHub Issues.</p>
-<p>{% include links.md %}</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul><li>“Labelling issues can help with organization and filtering.”</li>
+</ul></div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 

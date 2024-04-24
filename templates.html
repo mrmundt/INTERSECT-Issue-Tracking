@@ -270,6 +270,30 @@
 
         
 
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul><li>“What are issue templates?”</li>
+<li>“How do you make issue templates?”</li>
+<li>“How do you customize the template chooser?”</li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul><li>“Learn how to make issue templates.”</li>
+<li>“Learn how to customize templates and their appearance.”</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
 <section id="what-are-issue-templates"><h2 class="section-heading">What are Issue Templates?<a class="anchor" aria-label="anchor" href="#what-are-issue-templates"></a>
 </h2>
 <hr class="half-width"><p>Issue templates in GitHub are a way to pre-fill new issues with
@@ -284,35 +308,36 @@ all.</p>
 Issue Templates. This can be enabled through the graphical user
 interface.</p>
 <p>Click on the “Settings” tab in your repository.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/github-settings.png" alt="GitHub Settings tab" class="figure">{:width=“75%”}</p>
-<p>It will load to the “General settings” page, under which there is a
+<figure><img src="fig/github-settings.png" alt="GitHub Settings tab" class="figure mx-auto d-block"></figure><p>It will load to the “General settings” page, under which there is a
 “Feature” section. Here you will see “Issues” (already checkmarked) with
 a button to “Set up templates.”</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/set-up-templates.png" alt="GitHub settings features section, set up templates button" class="figure">{:width=“75%”}</p>
-<p>This will take you to a mostly blank screen on which there is an “Add
+<figure><img src="fig/set-up-templates.png" alt="GitHub settings features section, set up templates button" class="figure mx-auto d-block"></figure><p>This will take you to a mostly blank screen on which there is an “Add
 template” dropdown with several options.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/add-template-dropdown.png" alt="Add template dropdown with bug report, feature request, and custom template" class="figure">{:width=“40%”}</p>
-<p>From this list, select “Bug report.” You will now see that the “Bug
+<figure><img src="fig/add-template-dropdown.png" alt="Add template dropdown with bug report, feature request, and custom template" class="figure mx-auto d-block"></figure><p>From this list, select “Bug report.” You will now see that the “Bug
 report” template shows up in the list of templates. Click “Preview and
 edit” to view the new template.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/bug-report-default-template.png" alt="Preview of default bug report template" class="figure">{:width=“75%”}</p>
-<p>For now, we will leave this template as-is. To apply the new template
+<figure><img src="fig/bug-report-default-template.png" alt="Preview of default bug report template" class="figure mx-auto d-block"></figure><p>For now, we will leave this template as-is. To apply the new template
 to your repository, click the “Propose changes” button at the top of the
 page. This will load a commit message dialog box. Put whatever you
 desire in the commit message dialog box and commit the changes to your
 main branch.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/propose-changes-templates.png" alt="Propose changes commit message dialog" class="figure">{:width=“75%”}</p>
-<p>If we navigate to the Issues page now and click “New issue”, the
+<figure><img src="fig/propose-changes-templates.png" alt="Propose changes commit message dialog" class="figure mx-auto d-block"></figure><p>If we navigate to the Issues page now and click “New issue”, the
 template is now available in our options.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/new-issue-template-list.png" alt="New issue page with a template created" class="figure">{:width=“75%”}</p>
-<blockquote>
-<h2 id="new-feature">New Feature</h2>
+<figure><img src="fig/new-issue-template-list.png" alt="New issue page with a template created" class="figure mx-auto d-block"></figure><div id="new-feature" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="new-feature" class="callout-inner">
+<h3 class="callout-title">New Feature<a class="anchor" aria-label="anchor" href="#new-feature"></a>
+</h3>
+<div class="callout-content">
 <p>Using the same steps covered, add the “Feature request” default
 template to your repository.</p>
 <p>Now open an issue for each new template, filling out the sections
 with whatever you’d like.</p>
-<p>{:.challenge}</p>
-</blockquote>
+</div>
+</div>
+</div>
 </section><section id="custom-issue-templates"><h2 class="section-heading">Custom Issue Templates<a class="anchor" aria-label="anchor" href="#custom-issue-templates"></a>
 </h2>
 <hr class="half-width"><p>We now have templates for both bug reports and feature requests. For
@@ -321,17 +346,24 @@ Discussions. Let’s make this custom template.</p>
 <p>When we created our first template, GitHub did the setup for us. If
 you navigate back to your main page, you will see a new directory has
 been created.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/new-dot-github-dir.png" alt="New .github directory in main repository" class="figure">{:width=“75%”}</p>
-<p>This new directory is where all the issue templates are located. The
+<figure><img src="fig/new-dot-github-dir.png" alt="New .github directory in main repository" class="figure mx-auto d-block"></figure><p>This new directory is where all the issue templates are located. The
 directory currently has two files: <code>bug_report.md</code> and
 <code>feature_request.md</code>. We are going to make a new one called
 <code>design_discussion.md</code>.</p>
-<blockquote>
-<h2 id="multiple-paths-available">Multiple Paths Available</h2>
+<div id="multiple-paths-available" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="multiple-paths-available" class="callout-inner">
+<h3 class="callout-title">Multiple Paths Available<a class="anchor" aria-label="anchor" href="#multiple-paths-available"></a>
+</h3>
+<div class="callout-content">
 <p>We will do the rest of this lesson through the GUI; however, all of
 these steps can be done via command line and your preferred text editor.
-Do whatever feels right for you! {:.callout}</p>
-</blockquote>
+Do whatever feels right for you!</p>
+</div>
+</div>
+</div>
 <div class="section level3">
 <h3 id="issue-template-header">Issue Template Header<a class="anchor" aria-label="anchor" href="#issue-template-header"></a></h3>
 <p>All issue templates start with a standard header that controls the
@@ -371,18 +403,24 @@ template</td>
 <h3 id="issue-template-content">Issue Template Content<a class="anchor" aria-label="anchor" href="#issue-template-content"></a></h3>
 <p>Following this header, we can add whatever other data or sections we
 desire, formatting the template using Markdown.</p>
-<blockquote>
-<h2 id="discussion-section">Discussion Section</h2>
+<div id="discussion-section" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion-section" class="callout-inner">
+<h3 class="callout-title">Discussion Section<a class="anchor" aria-label="anchor" href="#discussion-section"></a>
+</h3>
+<div class="callout-content">
 <p>Finish the “Design Discussion” template by adding the following
 sections:</p>
 <ul><li>Description</li>
 <li>Motivation</li>
 </ul><p>Then commit the changes directly to your main branch.</p>
-<p>{:.challenge}</p>
-</blockquote>
-<p>We now have three issue templates available for use.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/three-issue-template-list.png" alt="New issue page with three templates available" class="figure">{:width=“75%”}</p>
 </div>
+</div>
+</div>
+<p>We now have three issue templates available for use.</p>
+<figure><img src="fig/three-issue-template-list.png" alt="New issue page with three templates available" class="figure mx-auto d-block"></figure></div>
 </section><section id="incorporate-external-links"><h2 class="section-heading">Incorporate External Links<a class="anchor" aria-label="anchor" href="#incorporate-external-links"></a>
 </h2>
 <hr class="half-width"><p>Many projects have external websites or extra ways to get help
@@ -402,22 +440,42 @@ a user is allowed to open a blank issue if one of the provided templates
 doesn’t quite fit their need.</p>
 <p>The second option, <code>contact_links</code>, allows you to list
 links to external sites that will show up in the template chooser.</p>
-<blockquote>
-<h2 id="ask-google">Ask Google</h2>
+<div id="ask-google" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="ask-google" class="callout-inner">
+<h3 class="callout-title">Ask Google<a class="anchor" aria-label="anchor" href="#ask-google"></a>
+</h3>
+<div class="callout-content">
 <p>Create a <code>config.yml</code> for your repository. In the
 <code>config.yml</code>:</p>
 <ul><li>Enable blank issues</li>
 <li>Create a link with the name, “Ask Google,” a link to www.google.com,
 and the description, “Google may know your answer.”</li>
 </ul><p>Then commit the changes directly to your main branch.</p>
-<p>{:.challenge}</p>
-</blockquote>
+</div>
+</div>
+</div>
 <p>Our template chooser now has our three templates and a link to
 Google.</p>
-<p><img src="%7B%7B%20page.root%20%7D%7D/fig/ask-google-template.png" alt="Template chooser with custom external link" class="figure">{:width=“75%”}</p>
-<p>And that’s all, folks! You now know much more about GitHub
+<figure><img src="fig/ask-google-template.png" alt="Template chooser with custom external link" class="figure mx-auto d-block"></figure><p>And that’s all, folks! You now know much more about GitHub
 Issues.</p>
-<p>{% include links.md %}</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul><li>“Templates can be incorporated into any GitHub repository and can
+make issue creation more structured.”</li>
+<li>“External links can be listed with the templates to help direct
+users to external resources.”</li>
+</ul></div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
