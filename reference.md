@@ -1,6 +1,3 @@
----
-layout: reference
----
 
 ## References
 
@@ -8,4 +5,3 @@ layout: reference
 - Gorohovsky, J. (2023). Best Practices for Using GitHub Issues. Rewind Backups. https://rewind.com/blog/best-practices-for-using-github-issues/
 - Johnson, J. N., & Dubois, P. F. (2003). Issue tracking. Computing in Science & Engineering, 5(6), 71-77.
 
-{% include links.md %}
